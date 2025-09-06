@@ -1,5 +1,82 @@
 
+.ltx_listing {
+	background-color: rgb(245, 245, 245);
+	border: thin solid rgb(200, 200, 200);
+	border-radius: 4px;
+	font-size: larger;
+	margin-left: 2em;
+	min-height: 4ex;
+	padding: 4px 4px 6px 10px; }
+.ltx_listingline {
+	min-height: 0.9em;
+	line-height: 1; }
 .ltx_listing_data {
   float:right; }  
 .ltx_listing_data a {
-  text-decoration:none; }
+  text-decoration:none; 
+	margin-right: 2em; }
+.ltx_lst_identifier {
+	font-size: larger; }
+.ltx_lst_numbers_left .ltx_listingline .ltx_tag {
+	margin-left: -42px;
+	font-size: x-small;
+	margin-top: 1ex; }
+.ltx_listing_copy2clip {
+	position: absolute; }
+.ltx_listing_button {
+	appearance: none;
+	background-color: #FAFBFC;
+	border: 1px solid rgba(27, 31, 35, 0.15);
+	border-radius: 6px;
+	box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+	box-sizing: border-box;
+	color: #24292E;
+	cursor: pointer;
+	display: inline-block;
+	font-family: -apple-system, system-ui, Helvetica, Arial, sans-serif;
+	height: 36px;
+	list-style: none;
+	padding: 6px;
+	position: relative;
+	transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	vertical-align: middle;
+	white-space: nowrap;
+	width: 36px;
+	word-wrap: break-word; }
+.ltx_listing_button:hover {
+	background-color: #F3F4F6;
+	text-decoration: none;
+	transition-duration: 0.1s; }
+.ltx_listing_button:disabled {
+	background-color: #FAFBFC;
+	border-color: rgba(27, 31, 35, 0.15);
+	color: #959DA5;
+	cursor: default; }
+.ltx_listing_button:active {
+	background-color: #EDEFF2;
+	box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+	transition: none 0s; }
+.ltx_listing_button:focus {
+	outline: 1px transparent; }
+.ltx_listing_button:before {
+	display: none; }
+.ltx_listing_button img {
+	padding: 1px 2px; }
+.ltx_listing_button:-webkit-details-marker {
+	display: none; }
+.hide {
+	transition: opacity 1s ease-in-out;
+	visibility: hidden; }
+.ltx_listing_copy_ok {
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+	max-width: 100px;
+	opacity: 1;
+	pointer-events: none;
+	scale: 0.8;
+	transition: opacity 1s ease-in-out; }
